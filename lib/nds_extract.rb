@@ -2,8 +2,8 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 def directors_totals(nds)
-  totals = {}
-  n = 0
+  directors_totals = {}
+   = 0
   while n < nds.count
     movieTotal = 0
     g = 0 
