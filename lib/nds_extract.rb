@@ -4,8 +4,8 @@ require 'directors_database'
 def directors_totals(nds)
   directors_totals = {}
   nameSearch = 0
-  numberOfDirectors
   while nameSearch < nds.count
+  #nds.count = the amount of directors in the array
   directorName = nds[nameSearch][:name]
    moviesCombinedTotal = 0
    movieSearch = 0 
