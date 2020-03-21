@@ -3,12 +3,13 @@ require 'directors_database'
 
 def directors_totals(nds)
   directors_totals = {}
-   = 0
-  while n < nds.count
-    movieTotal = 0
+  nameSearch = 0
+  while nameSearch < nds.count
+    moviesCombinedTotal = 0
     g = 0 
     while g < nds[n][:movies].count
-    movieTotal += nds[n][:movies][g][:worldwide_gross]
+    movieGross = nds[n][:movies][g][:worldwide_gross]
+    moviesCombinedGross += movieGRoss
     g += 1
     end
     totals[nds[n][:name]] = movieTotal
