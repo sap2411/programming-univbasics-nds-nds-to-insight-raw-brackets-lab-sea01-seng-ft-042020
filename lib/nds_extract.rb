@@ -6,10 +6,10 @@ def directors_totals(nds)
   nameSearch = 0
   while nameSearch < nds.count
     moviesCombinedTotal = 0
-    g = 0 
-    while g < nds[n][:movies].count
+    directorsMovieSearch = 0 
+    while directorsMovieSearch < nds[n][:movies].count
     movieGross = nds[n][:movies][g][:worldwide_gross]
-    moviesCombinedGross += movieGRoss
+    moviesCombinedTotal += movieGross
     g += 1
     end
     totals[nds[n][:name]] = movieTotal
