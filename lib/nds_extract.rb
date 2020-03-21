@@ -13,7 +13,7 @@ def directors_totals(nds)
     moviesCombinedTotal += movieGross
     movieSearch += 1
     end
-    directors_totals[nds[nameSearch][:name]] = moviesCombinedTotal
+    directors_totals[directorName] = moviesCombinedTotal
     nameSearch += 1
   end
   directors_totals
