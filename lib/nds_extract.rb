@@ -12,5 +12,7 @@ def directors_totals(nds)
     g += 1
     end
     totals[nds[n][:name]] => movieTotal
+    n += 1
   end
+  totals
 end
