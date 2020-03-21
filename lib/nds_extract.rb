@@ -10,7 +10,7 @@ def directors_totals(nds)
    movieSearch = 0 
    while movieSearch < nds[nameSearch][:movies].count
    movieGross = nds[nameSearch][:movies][movieSearch][:worldwide_gross]
-    moviesCombinedTotal += oneMovieGross
+    moviesCombinedTotal += movieGross
     movieSearch += 1
     end
     directors_totals[directorName] = moviesCombinedTotal
